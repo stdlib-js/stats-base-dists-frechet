@@ -35,30 +35,20 @@ limitations under the License.
 
 > Fréchet distribution.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-dists-frechet
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var frechet = require( '@stdlib/stats-base-dists-frechet' );
+import frechet from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { Frechet, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@deno/mod.js';
 ```
 
 #### frechet
@@ -118,7 +108,7 @@ The namespace contains a constructor function for creating a [Fréchet][frechet-
 <!-- </toc> -->
 
 ```javascript
-var Frechet = require( '@stdlib/stats-base-dists-frechet' ).Frechet;
+var Frechet = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet' ).Frechet;
 
 var dist = new Frechet( 2.0, 4.0, 3.0 );
 
@@ -139,8 +129,8 @@ var y = dist.pdf( 5.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var frechet = require( '@stdlib/stats-base-dists-frechet' );
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import frechet from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@deno/mod.js';
 
 console.log( objectKeys( frechet ) );
 ```
@@ -166,7 +156,7 @@ console.log( objectKeys( frechet ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -230,33 +220,33 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/frechet/ctor]: https://github.com/stdlib-js/stats-base-dists-frechet-ctor
+[@stdlib/stats/base/dists/frechet/ctor]: https://github.com/stdlib-js/stats-base-dists-frechet-ctor/tree/deno
 
-[@stdlib/stats/base/dists/frechet/entropy]: https://github.com/stdlib-js/stats-base-dists-frechet-entropy
+[@stdlib/stats/base/dists/frechet/entropy]: https://github.com/stdlib-js/stats-base-dists-frechet-entropy/tree/deno
 
-[@stdlib/stats/base/dists/frechet/kurtosis]: https://github.com/stdlib-js/stats-base-dists-frechet-kurtosis
+[@stdlib/stats/base/dists/frechet/kurtosis]: https://github.com/stdlib-js/stats-base-dists-frechet-kurtosis/tree/deno
 
-[@stdlib/stats/base/dists/frechet/mean]: https://github.com/stdlib-js/stats-base-dists-frechet-mean
+[@stdlib/stats/base/dists/frechet/mean]: https://github.com/stdlib-js/stats-base-dists-frechet-mean/tree/deno
 
-[@stdlib/stats/base/dists/frechet/median]: https://github.com/stdlib-js/stats-base-dists-frechet-median
+[@stdlib/stats/base/dists/frechet/median]: https://github.com/stdlib-js/stats-base-dists-frechet-median/tree/deno
 
-[@stdlib/stats/base/dists/frechet/mode]: https://github.com/stdlib-js/stats-base-dists-frechet-mode
+[@stdlib/stats/base/dists/frechet/mode]: https://github.com/stdlib-js/stats-base-dists-frechet-mode/tree/deno
 
-[@stdlib/stats/base/dists/frechet/skewness]: https://github.com/stdlib-js/stats-base-dists-frechet-skewness
+[@stdlib/stats/base/dists/frechet/skewness]: https://github.com/stdlib-js/stats-base-dists-frechet-skewness/tree/deno
 
-[@stdlib/stats/base/dists/frechet/stdev]: https://github.com/stdlib-js/stats-base-dists-frechet-stdev
+[@stdlib/stats/base/dists/frechet/stdev]: https://github.com/stdlib-js/stats-base-dists-frechet-stdev/tree/deno
 
-[@stdlib/stats/base/dists/frechet/variance]: https://github.com/stdlib-js/stats-base-dists-frechet-variance
+[@stdlib/stats/base/dists/frechet/variance]: https://github.com/stdlib-js/stats-base-dists-frechet-variance/tree/deno
 
-[@stdlib/stats/base/dists/frechet/cdf]: https://github.com/stdlib-js/stats-base-dists-frechet-cdf
+[@stdlib/stats/base/dists/frechet/cdf]: https://github.com/stdlib-js/stats-base-dists-frechet-cdf/tree/deno
 
-[@stdlib/stats/base/dists/frechet/logcdf]: https://github.com/stdlib-js/stats-base-dists-frechet-logcdf
+[@stdlib/stats/base/dists/frechet/logcdf]: https://github.com/stdlib-js/stats-base-dists-frechet-logcdf/tree/deno
 
-[@stdlib/stats/base/dists/frechet/logpdf]: https://github.com/stdlib-js/stats-base-dists-frechet-logpdf
+[@stdlib/stats/base/dists/frechet/logpdf]: https://github.com/stdlib-js/stats-base-dists-frechet-logpdf/tree/deno
 
-[@stdlib/stats/base/dists/frechet/pdf]: https://github.com/stdlib-js/stats-base-dists-frechet-pdf
+[@stdlib/stats/base/dists/frechet/pdf]: https://github.com/stdlib-js/stats-base-dists-frechet-pdf/tree/deno
 
-[@stdlib/stats/base/dists/frechet/quantile]: https://github.com/stdlib-js/stats-base-dists-frechet-quantile
+[@stdlib/stats/base/dists/frechet/quantile]: https://github.com/stdlib-js/stats-base-dists-frechet-quantile/tree/deno
 
 <!-- </toc-links> -->
 
