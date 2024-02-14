@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import frechet from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@deno/mod.js';
+import frechet from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Frechet, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@deno/mod.js';
+import { Frechet, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@v0.2.0-deno/mod.js';
 ```
 
 #### frechet
@@ -130,7 +130,7 @@ var y = dist.pdf( 5.5 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import frechet from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@deno/mod.js';
+import frechet from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-frechet@v0.2.0-deno/mod.js';
 
 console.log( objectKeys( frechet ) );
 ```
