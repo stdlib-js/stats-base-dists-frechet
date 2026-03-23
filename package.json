@@ -53,7 +53,6 @@
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.2.3",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/assert-is-number": "^0.2.3",

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-02)
+## Unreleased (2026-03-23)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`800e5c6`](https://github.com/stdlib-js/stdlib/commit/800e5c63152409e524ba972c331f3656103adebd) - **bench:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ef7e6f0`](https://github.com/stdlib-js/stdlib/commit/ef7e6f021e5d0d32022caf3cfdeaad729c4ac7eb) - **bench:** update random value generation for `stats/base/dists/frechet/ctor` [(#10364)](https://github.com/stdlib-js/stdlib/pull/10364) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`18db4f6`](https://github.com/stdlib-js/stdlib/commit/18db4f6ca8230913325b71f53a49ad0aac41b10b) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10335)](https://github.com/stdlib-js/stdlib/pull/10335) _(by Lokesh Ranjan)_
 -   [`f5199d6`](https://github.com/stdlib-js/stdlib/commit/f5199d619314724b7b0627f41aba3114b559cec8) - **bench:** update random value generation for `stats/base/dists/frechet` [(#10317)](https://github.com/stdlib-js/stdlib/pull/10317) _(by Lokesh Ranjan, Philipp Burckhardt)_
 -   [`f884c94`](https://github.com/stdlib-js/stdlib/commit/f884c94958214a509cf48747280543d3b5ec396f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
