@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-15)
+## Unreleased (2026-08-01)
+
+<section class="features">
+
+### Features
+
+-   [`ef6a8d0`](https://github.com/stdlib-js/stdlib/commit/ef6a8d06633359aa718f4aef91a1a257782748b2) - add C implementation for `stats/base/dists/frechet/pdf` [(#10843)](https://github.com/stdlib-js/stdlib/pull/10843)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3612](https://github.com/stdlib-js/stdlib/issues/3612)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`ef6a8d0`](https://github.com/stdlib-js/stdlib/commit/ef6a8d06633359aa718f4aef91a1a257782748b2) - **feat:** add C implementation for `stats/base/dists/frechet/pdf` [(#10843)](https://github.com/stdlib-js/stdlib/pull/10843) _(by Siddhartha Mondal, Philipp Burckhardt, stdlib-bot)_
 -   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
 -   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
 -   [`6831b5a`](https://github.com/stdlib-js/stdlib/commit/6831b5a309aad7a6e7f5460fb60a2244d2d6bcf4) - **docs:** update `stats/base/dists/frechet` TypeScript declarations [(#12601)](https://github.com/stdlib-js/stdlib/pull/12601) _(by stdlib-bot)_
@@ -37,12 +60,13 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Lokesh Ranjan
 -   Philipp Burckhardt
 -   Shubham
+-   Siddhartha Mondal
 -   anee3
 
 </section>
