@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-01)
+## Unreleased (2026-09-21)
 
 <section class="features">
 
@@ -34,6 +34,18 @@ This release closes the following issue:
 
 <details>
 
+-   [`08ba15f`](https://github.com/stdlib-js/stdlib/commit/08ba15f500e43b5042409a3cc86e0d9ef188c275) - **test:** migrate `stats/base/dists/frechet/stdev` to ULP-based assertions [(#15163)](https://github.com/stdlib-js/stdlib/pull/15163) _(by Athan Reines)_
+-   [`1905f07`](https://github.com/stdlib-js/stdlib/commit/1905f07e480b8a61b8ce4a991682edf006835a7a) - **test:** migrate `stats/base/dists/frechet/median` to ULP-based assertions [(#15123)](https://github.com/stdlib-js/stdlib/pull/15123) _(by Philipp Burckhardt)_
+-   [`874b5bf`](https://github.com/stdlib-js/stdlib/commit/874b5bfaf1279581224ac8a215c8f19dcc27d399) - **test:** migrate `stats/base/dists/frechet/pdf` to ULP-based assertions [(#15077)](https://github.com/stdlib-js/stdlib/pull/15077) _(by Athan Reines)_
+-   [`0aa4726`](https://github.com/stdlib-js/stdlib/commit/0aa472653c091755b5de284e0a3896ac4d36aae3) - **test:** migrate `stats/base/dists/frechet/logpdf` to ULP-based assertions [(#14851)](https://github.com/stdlib-js/stdlib/pull/14851) _(by Athan Reines)_
+-   [`4227867`](https://github.com/stdlib-js/stdlib/commit/4227867abf3c72831166c6366810043ef9614f14) - **test:** migrate `stats/base/dists/frechet/logcdf` to ULP-based assertions [(#14720)](https://github.com/stdlib-js/stdlib/pull/14720) _(by Athan Reines)_
+-   [`7415f92`](https://github.com/stdlib-js/stdlib/commit/7415f928c881bee955c14f8929616d90ded724b8) - **test:** migrate `stats/base/dists/frechet/mean` to ULP-based assertions [(#14651)](https://github.com/stdlib-js/stdlib/pull/14651) _(by Athan Reines)_
+-   [`1340994`](https://github.com/stdlib-js/stdlib/commit/134099429ff8f56fc201542d1b6739f8dd8c183b) - **test:** migrate `stats/base/dists/frechet/skewness` to ULP-based assertions [(#14531)](https://github.com/stdlib-js/stdlib/pull/14531) _(by Athan Reines)_
+-   [`2f7d58c`](https://github.com/stdlib-js/stdlib/commit/2f7d58cc76fc82334a120e4f9f671d0854ec4cbf) - **test:** migrate `stats/base/dists/frechet/variance` to ULP-based assertions [(#14434)](https://github.com/stdlib-js/stdlib/pull/14434) _(by Athan Reines)_
+-   [`4d755b3`](https://github.com/stdlib-js/stdlib/commit/4d755b30c5f4f60e30f739d9344ee902070a73fa) - **test:** migrate `stats/base/dists/frechet/entropy` to ULP-based assertions [(#14406)](https://github.com/stdlib-js/stdlib/pull/14406) _(by Philipp Burckhardt)_
+-   [`b01d109`](https://github.com/stdlib-js/stdlib/commit/b01d109d986deebe25d981283138ff6039a1273d) - **test:** migrate `stats/base/dists/frechet/kurtosis` to ULP-based assertions [(#14394)](https://github.com/stdlib-js/stdlib/pull/14394) _(by Athan Reines)_
+-   [`7308864`](https://github.com/stdlib-js/stdlib/commit/7308864112017c94c43d8b10488eb6283e04a6b5) - **test:** migrate `stats/base/dists/frechet/mode` to ULP-based assertions [(#14361)](https://github.com/stdlib-js/stdlib/pull/14361) _(by Philipp Burckhardt)_
+-   [`6e22696`](https://github.com/stdlib-js/stdlib/commit/6e22696e475dacbea43f660117c957b6af1f3a6f) - **chore:** clean-up [(#14338)](https://github.com/stdlib-js/stdlib/pull/14338) _(by Philipp Burckhardt)_
 -   [`ef6a8d0`](https://github.com/stdlib-js/stdlib/commit/ef6a8d06633359aa718f4aef91a1a257782748b2) - **feat:** add C implementation for `stats/base/dists/frechet/pdf` [(#10843)](https://github.com/stdlib-js/stdlib/pull/10843) _(by Siddhartha Mondal, Philipp Burckhardt, stdlib-bot)_
 -   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
 -   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
