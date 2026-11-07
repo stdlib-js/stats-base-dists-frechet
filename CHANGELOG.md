@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-07)
 
 <section class="features">
 
@@ -34,6 +34,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`7d32827`](https://github.com/stdlib-js/stdlib/commit/7d32827ffec50aa3b689db5f5b3a52b9d383af2c) - **test:** migrate `stats/base/dists/frechet/cdf` to ULP-based assertions [(#16242)](https://github.com/stdlib-js/stdlib/pull/16242) _(by Athan Reines)_
+-   [`864fee6`](https://github.com/stdlib-js/stdlib/commit/864fee653901caaf3cee6fc46e002fd0386306ae) - **test:** migrate `stats/base/dists/frechet/quantile` to ULP-based assertions [(#15574)](https://github.com/stdlib-js/stdlib/pull/15574) _(by Athan Reines)_
 -   [`08ba15f`](https://github.com/stdlib-js/stdlib/commit/08ba15f500e43b5042409a3cc86e0d9ef188c275) - **test:** migrate `stats/base/dists/frechet/stdev` to ULP-based assertions [(#15163)](https://github.com/stdlib-js/stdlib/pull/15163) _(by Athan Reines)_
 -   [`1905f07`](https://github.com/stdlib-js/stdlib/commit/1905f07e480b8a61b8ce4a991682edf006835a7a) - **test:** migrate `stats/base/dists/frechet/median` to ULP-based assertions [(#15123)](https://github.com/stdlib-js/stdlib/pull/15123) _(by Philipp Burckhardt)_
 -   [`874b5bf`](https://github.com/stdlib-js/stdlib/commit/874b5bfaf1279581224ac8a215c8f19dcc27d399) - **test:** migrate `stats/base/dists/frechet/pdf` to ULP-based assertions [(#15077)](https://github.com/stdlib-js/stdlib/pull/15077) _(by Athan Reines)_
